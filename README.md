@@ -8,7 +8,7 @@ pip install innvestigate
 For more information we direct the reader to: https://github.com/albermax/innvestigate 
 
 If using this code, please cite: <br />
-Creagh A P., Lipsmeier F, Lindemann M, De Vos M, (2021). "<em>Interpretable Deep Learning for the Remote Characterisation of Ambulation in Multiple Sclerosis using Smartphones</em>", arXiv
+Creagh, A.P., Lipsmeier, F., Lindemann, M., and De Vos, M. Interpretable deep learning for the remote characterisation of ambulation in multiple sclerosis using smartphones. Sci Rep 11, 14301 (2021). https://doi.org/10.1038/s41598-021-92776-x
  
 Deep networks were built using Python v3.7.4. through a Keras framework v2.2.4 with a Tensorflow v1.14 back-end. The iNNvestigate library is based on Keras and  requires a supported Keras-backend a Tensorflow backend (tested with Python v3.6, Tensorflow v1.12):
 
