@@ -1,5 +1,5 @@
 # Interpretable Deep Learning for the Remote Characterisation of Ambulation in Multiple Sclerosis using Smartphones
-Software detaling an interpretable deep learning framework applied to smartphone-based inertial sensor data for remote patient monitoring (RPM) of people with multiple sclerosis (PwMS) and healthy controls (HC). Code demonstrates training, validating, and testing a Deep Convolutional Neural Network (DCNN) on smartphone inertial sensor data end-to-end, versus fine-tuning from a pre-trained smartphone-based Human Activity Recognition (HAR) model. <br />
+Software detaling an interpretable deep learning framework applied to smartphone-based inertial sensor data for remote patient monitoring (RPM) of people with multiple sclerosis (PwMS) and healthy controls (HC). <br />
 
 Layer-wise Relevance Propagation (LRP) can then be used to visualise DCNN decision by attributing relevance to the individual input data. Relevance scores can be projected by LRP directly back onto the raw time-series input, enabling the contribution of relevant and contradictory sensor patterns reflective of those who are healthy versus PwMS. LRP was implemeted using the iNNvestigate toolbox. iNNvestigate can be installed with the following commands: 
 ```bash
@@ -13,8 +13,7 @@ Creagh A P., Lipsmeier F, Lindemann M, De Vos M, (2021). "<em>Interpretable Deep
 Deep networks were built using Python v3.7.4. through a Keras framework v2.2.4 with a Tensorflow v1.14 back-end. The iNNvestigate library is based on Keras and  requires a supported Keras-backend a Tensorflow backend (tested with Python v3.6, Tensorflow v1.12):
 
 ## Acknowledgment 
-This author is affiliated at the Institute of Biomedical Engineering, Department of Engineering Science, University of Oxford.<br />
-Contact: andrew.creagh@eng.ox.ac.uk 
+This author is affiliated with the Institute of Biomedical Engineering, Department of Engineering Science, University of Oxford. Contact: andrew.creagh@eng.ox.ac.uk 
 
 ## License 
 Released under the GNU General Public License v3
